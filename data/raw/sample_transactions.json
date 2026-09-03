@@ -1,0 +1,514 @@
+[
+  {
+    "timestamp": "2026-01-01 00:07:00",
+    "src_ip": "203.100.40.24",
+    "dst_ip": "82.163.25.140",
+    "src_port": 55645,
+    "dst_port": 8333,
+    "txid": "e9c59520296fc3e834da7eb10192e2694c3747f24124c265d231658627527203",
+    "input_addresses": [
+      "1Vy6gYP7XkqOtjx5KWHXjuMs8V"
+    ],
+    "output_addresses": [
+      "1njZbcJjNcJdql7LIbSPrfB91k",
+      "1wf4QUzt1Esm84ePawxq6ztYv6",
+      "1Vbq9Ew6AQOfMXSfjSNTtgatwq"
+    ],
+    "input_amounts": [
+      0.085939
+    ],
+    "output_amounts": [
+      0.029168,
+      0.028743,
+      0.027719
+    ],
+    "fee": 0.000203,
+    "script_type": "P2WPKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 00:22:00",
+    "src_ip": "25.111.56.33",
+    "dst_ip": "132.63.216.187",
+    "src_port": 32968,
+    "dst_port": 8333,
+    "txid": "095fcf18d7b323c3cce0d44951d5de93db322a685e510b4da1b805034cb36c07",
+    "input_addresses": [
+      "14miS40ubK4W017x6ygsij6X7O",
+      "1fUoLOaxX2Mv6WCulgKeWmJNpA"
+    ],
+    "output_addresses": [
+      "19ipBTjdJRtSyyTamNP0WYAaei",
+      "1Bjg87THM75FY0853siUB2wF5J",
+      "1e3ucAq6HXWf2Td6P3gwMwkIeR"
+    ],
+    "input_amounts": [
+      0.025355,
+      1.779626
+    ],
+    "output_amounts": [
+      0.628886,
+      0.640108,
+      0.62132
+    ],
+    "fee": 0.007592,
+    "script_type": "P2SH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 00:34:00",
+    "src_ip": "8.16.48.20",
+    "dst_ip": "93.190.132.43",
+    "src_port": 30570,
+    "dst_port": 8333,
+    "txid": "e0a17db712bd2ed33edb1ad5879551f3b90bfabe9c983a73e478b446bc4f52b9",
+    "input_addresses": [
+      "111vfHeh8Gc2wcSlqRl6I3vCdo",
+      "1gJSoFc1pDxj51I4TAtzSqexF3"
+    ],
+    "output_addresses": [
+      "1ub52Ztd26fEeVVhDIq2AnHTmt"
+    ],
+    "input_amounts": [
+      1.159501,
+      1.085116
+    ],
+    "output_amounts": [
+      2.19446
+    ],
+    "fee": 0.007938,
+    "script_type": "P2SH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 00:42:00",
+    "src_ip": "213.150.108.243",
+    "dst_ip": "194.93.209.9",
+    "src_port": 10671,
+    "dst_port": 8333,
+    "txid": "ab79d6cfdacd188db09f3d9149d17032ba85dab7ddc1a7b8e196abe4073596ca",
+    "input_addresses": [
+      "13VgnpmBFvHs6A4NFLyuIDqruJ"
+    ],
+    "output_addresses": [
+      "1ZbMuaEUMmTEjoIAEzk6UUhC7y",
+      "1YWXmE2GyGfTNnFU0hfp9EHr4J",
+      "1Tu5X1YqWg21nYCsXoblu17rNy"
+    ],
+    "input_amounts": [
+      1.157333
+    ],
+    "output_amounts": [
+      0.412399,
+      0.381648,
+      0.413274
+    ],
+    "fee": 0.00524,
+    "script_type": "P2WPKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 00:56:00",
+    "src_ip": "77.184.220.146",
+    "dst_ip": "154.194.155.250",
+    "src_port": 27321,
+    "dst_port": 8333,
+    "txid": "3edeacbc95056beb675121b47f795feafa48599c22013be692c116935a31c735",
+    "input_addresses": [
+      "1OQdhtzF3Rth4sMnijULzIDHPn"
+    ],
+    "output_addresses": [
+      "1KQxVrpFT6EMBVelifcG7cR8IY"
+    ],
+    "input_amounts": [
+      1.731988
+    ],
+    "output_amounts": [
+      1.585814
+    ],
+    "fee": 0.015786,
+    "script_type": "P2SH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 01:05:00",
+    "src_ip": "26.211.231.111",
+    "dst_ip": "99.128.235.181",
+    "src_port": 51850,
+    "dst_port": 8333,
+    "txid": "8771229a3b13fc23776e03aac7da057abc973ea3a33e1b709e7040c6b5af2939",
+    "input_addresses": [
+      "1hjDGbHBK9ydZuBLWTOZDrMMdj"
+    ],
+    "output_addresses": [
+      "1qOk13LSwCaUedQQ0qJjxW0NdD",
+      "1GxgkNM0Uj6L1r76s383Di6apI",
+      "1SNtElxqRvX3U7ugK4RIUHyRmf"
+    ],
+    "input_amounts": [
+      0.665554
+    ],
+    "output_amounts": [
+      0.217588,
+      0.206457,
+      0.20487
+    ],
+    "fee": 0.002651,
+    "script_type": "P2SH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 01:14:00",
+    "src_ip": "184.233.118.58",
+    "dst_ip": "20.133.6.23",
+    "src_port": 18458,
+    "dst_port": 8333,
+    "txid": "c0b027b795d2e0dc8e99fa32da37f348a157d4501f6de22d5562efd546b2a90d",
+    "input_addresses": [
+      "1KF0j7elKPoh3pKMzKG5mSoyPs",
+      "1Drp3Qd9AglsDpNHlYjovuecpi"
+    ],
+    "output_addresses": [
+      "1mZ80tvINjSqfdP97CnGjw7CAg",
+      "1A4jTy6P0PdcvSqXWAvc3Nkr3Q"
+    ],
+    "input_amounts": [
+      0.655781,
+      0.805474
+    ],
+    "output_amounts": [
+      0.685446,
+      0.786195
+    ],
+    "fee": 0.011443,
+    "script_type": "P2PKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 01:27:00",
+    "src_ip": "161.122.140.219",
+    "dst_ip": "52.6.250.218",
+    "src_port": 31975,
+    "dst_port": 8333,
+    "txid": "ab00ce8f09c1324c12e2a766096a1be43a65c25fc1ebe879ab89b2c92dda149e",
+    "input_addresses": [
+      "1EBrkSBiy1PKvIf2SZ558J5eWb",
+      "1dX1Oxzjk67UYl2gkEsM4qtWu3"
+    ],
+    "output_addresses": [
+      "1PrfWvyl6S4M8V9kvGQm9UvvyU"
+    ],
+    "input_amounts": [
+      0.775993,
+      1.827009
+    ],
+    "output_amounts": [
+      2.73436
+    ],
+    "fee": 0.024117,
+    "script_type": "P2SH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 01:36:00",
+    "src_ip": "66.196.111.252",
+    "dst_ip": "211.242.135.29",
+    "src_port": 60090,
+    "dst_port": 8333,
+    "txid": "931d62edd07e2984498f654187f936e5916fb9ff321ae105216ece324b02eee6",
+    "input_addresses": [
+      "1ohGfwVHnVOrmXQ8DkPcNrAuXV"
+    ],
+    "output_addresses": [
+      "1TH1IyOSYdl2Xod1HeHfGfqIZc",
+      "18H6h8l7qgATtLFxJpRa5HSUPw"
+    ],
+    "input_amounts": [
+      1.504649
+    ],
+    "output_amounts": [
+      0.752092,
+      0.729377
+    ],
+    "fee": 0.004435,
+    "script_type": "P2SH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 01:44:00",
+    "src_ip": "22.80.248.38",
+    "dst_ip": "194.93.209.9",
+    "src_port": 29926,
+    "dst_port": 8333,
+    "txid": "cd70c9baaa98ae66708ed720a24b0dbe51bdcb7e47f525e6cf932f6bcb952818",
+    "input_addresses": [
+      "1lntJ6v65vmNyjsdlmOB2epGIi"
+    ],
+    "output_addresses": [
+      "14TsmiGJ1FhXsPI2kBhPonUOfA",
+      "1MbyIbNiCdxnuVxUZpfbH9vOWO",
+      "1pftzkMubdytzuxZhmUKEUxhdC"
+    ],
+    "input_amounts": [
+      0.633138
+    ],
+    "output_amounts": [
+      0.228602,
+      0.224991,
+      0.194794
+    ],
+    "fee": 0.005974,
+    "script_type": "P2WPKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 01:54:00",
+    "src_ip": "134.167.253.129",
+    "dst_ip": "93.116.169.51",
+    "src_port": 18993,
+    "dst_port": 8333,
+    "txid": "2e5ec389911692133bb5dff0708ee9a9c6c78b6c3ece59d8b42e953d3051493b",
+    "input_addresses": [
+      "1P0st9aEQhaLhgmDZBdhz8Y0HY"
+    ],
+    "output_addresses": [
+      "1EfFjhEjOoysAlYgB0kvAw1mlc",
+      "1D56h2FihTO5mWdBfeZSrlPE37"
+    ],
+    "input_amounts": [
+      1.103068
+    ],
+    "output_amounts": [
+      0.496322,
+      0.591089
+    ],
+    "fee": 0.005337,
+    "script_type": "P2PKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 02:09:00",
+    "src_ip": "104.240.171.111",
+    "dst_ip": "161.48.42.177",
+    "src_port": 27363,
+    "dst_port": 8333,
+    "txid": "cb0db477e232d78cdff3fa3d187edda93f47abef1e7593de319f3fef823db5fe",
+    "input_addresses": [
+      "1ap6EhknemOtzaEENe9vnfJP7j"
+    ],
+    "output_addresses": [
+      "1uewm6tvWuM5REHCr7dN8x35Au"
+    ],
+    "input_amounts": [
+      0.624159
+    ],
+    "output_amounts": [
+      0.589343
+    ],
+    "fee": 0.001227,
+    "script_type": "P2WPKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 02:23:00",
+    "src_ip": "68.128.110.228",
+    "dst_ip": "41.136.185.159",
+    "src_port": 36881,
+    "dst_port": 8333,
+    "txid": "fbae284b0108f1a77c3c497e0af4aa4b4205dc461a1155b92bcfa23f6db216cb",
+    "input_addresses": [
+      "1v8pBcC9qXmVHtyvY01uMTZoZg"
+    ],
+    "output_addresses": [
+      "1V4y6AwIg2ZCh2hibRKL5xqsmK"
+    ],
+    "input_amounts": [
+      0.200094
+    ],
+    "output_amounts": [
+      0.188269
+    ],
+    "fee": 0.001643,
+    "script_type": "P2WPKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 02:38:00",
+    "src_ip": "210.62.7.207",
+    "dst_ip": "68.105.174.134",
+    "src_port": 40769,
+    "dst_port": 8333,
+    "txid": "8899ac08341458ec1b7b48e0f964a3a1ec89e1fa362544332194f3567207ac38",
+    "input_addresses": [
+      "11SidVr8pTrsakpCgS4Q92eACE",
+      "1gYdAhBzELotbBWp21eJs1O3lW"
+    ],
+    "output_addresses": [
+      "1wf4QUzt1Esm84ePawxq6ztYv6",
+      "1xigu3TQzrE56tUwEg7pAadGuW",
+      "1xsoL9Tm5qbptHJK35nIWobHEL"
+    ],
+    "input_amounts": [
+      1.473744,
+      1.836471
+    ],
+    "output_amounts": [
+      1.031971,
+      1.089423,
+      1.1279
+    ],
+    "fee": 0.029073,
+    "script_type": "P2SH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 02:41:00",
+    "src_ip": "165.186.60.227",
+    "dst_ip": "10.188.210.28",
+    "src_port": 62566,
+    "dst_port": 8333,
+    "txid": "eba7b88f9eae2f1eb72ae0c4c1126b57be4f0b467844f24df04871017c327044",
+    "input_addresses": [
+      "1Ab5fSKntHwlDaipAjaMOfTft6"
+    ],
+    "output_addresses": [
+      "1ly2aNulpGoS5IkzYkWVdBHAZU",
+      "1Qc1czvRDcT8JM7BgNOiRnmRKS",
+      "1HMZoPjprErniUGgA7wLmahMac"
+    ],
+    "input_amounts": [
+      1.513966
+    ],
+    "output_amounts": [
+      0.477738,
+      0.544883,
+      0.536108
+    ],
+    "fee": 0.010695,
+    "script_type": "P2PKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 02:49:00",
+    "src_ip": "51.32.144.210",
+    "dst_ip": "52.95.17.119",
+    "src_port": 44098,
+    "dst_port": 8333,
+    "txid": "e9c03c4f8179e8926940d1ea08c42145658179e704e73d56a4fcc565ea315119",
+    "input_addresses": [
+      "1azDnKf7jdjjmhQRCCOdLUfgyi"
+    ],
+    "output_addresses": [
+      "13liOavnKUiT6TKsZXDlMmlNvf"
+    ],
+    "input_amounts": [
+      1.32222
+    ],
+    "output_amounts": [
+      1.329095
+    ],
+    "fee": 0.010517,
+    "script_type": "P2PKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 03:00:00",
+    "src_ip": "182.60.64.56",
+    "dst_ip": "77.184.220.146",
+    "src_port": 4481,
+    "dst_port": 8333,
+    "txid": "c521a4a6eafb5342c1d1aa9b4b6b8d53cf5f62a5849daf23389d8bfbae285e70",
+    "input_addresses": [
+      "1MyHTs9661HDppd5Y8FQphgZ7f"
+    ],
+    "output_addresses": [
+      "1YHDBTq0Zf2pCLxb0lnXv2Rra6"
+    ],
+    "input_amounts": [
+      0.982712
+    ],
+    "output_amounts": [
+      0.96034
+    ],
+    "fee": 0.003175,
+    "script_type": "P2SH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 03:12:00",
+    "src_ip": "135.228.45.79",
+    "dst_ip": "170.199.131.63",
+    "src_port": 33290,
+    "dst_port": 8333,
+    "txid": "74c46c34406688246fa55373ef5a4c011e47d4fb90c0d9f3db772f5fcb416020",
+    "input_addresses": [
+      "1io7OD4HeurTZBWhsUmM45P8AA"
+    ],
+    "output_addresses": [
+      "1eZFTfBrmFkUZaqvvJRJChfTlK",
+      "1xOANwKa3HgOqVMCBzCFg8z0NH",
+      "1bR1xHgQMv8EbcE4DHfSS5CUo9"
+    ],
+    "input_amounts": [
+      1.578842
+    ],
+    "output_amounts": [
+      0.564867,
+      0.507052,
+      0.498949
+    ],
+    "fee": 0.013265,
+    "script_type": "P2PKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 03:24:00",
+    "src_ip": "183.182.211.161",
+    "dst_ip": "187.211.157.71",
+    "src_port": 61621,
+    "dst_port": 8333,
+    "txid": "31d9464e4beb5781731b4ba2b822ae293de716dbc40b6a1268ff5fbc890c4a92",
+    "input_addresses": [
+      "1rhupLNyi27yakATUIFwra15oV",
+      "1VZ9rb5qs6YuKBooPsJzRv6o9D"
+    ],
+    "output_addresses": [
+      "1fYbbhlWep6AwyRsymAKDMcEbt"
+    ],
+    "input_amounts": [
+      1.895993,
+      1.876284
+    ],
+    "output_amounts": [
+      3.807838
+    ],
+    "fee": 0.019387,
+    "script_type": "P2WPKH",
+    "label": "licit"
+  },
+  {
+    "timestamp": "2026-01-01 03:36:00",
+    "src_ip": "21.114.54.86",
+    "dst_ip": "134.158.221.90",
+    "src_port": 60704,
+    "dst_port": 8333,
+    "txid": "cdf7b27f9c91f1067c13a4f8f9cfe5d1e710288170cf09d7de1273ffb80f2baf",
+    "input_addresses": [
+      "1AMW4ECn6zTRcy5TbXaIdxcMkF"
+    ],
+    "output_addresses": [
+      "1xtt1nKfCTvqsshlLrb32kSWDn",
+      "1jrYUaLBv3fPFO8zqLJgElHR3C"
+    ],
+    "input_amounts": [
+      1.591233
+    ],
+    "output_amounts": [
+      0.813343,
+      0.764684
+    ],
+    "fee": 0.004206,
+    "script_type": "P2WPKH",
+    "label": "licit"
+  }
+]
