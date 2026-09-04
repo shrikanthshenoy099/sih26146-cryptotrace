@@ -32,14 +32,22 @@ def make_normal_transaction(tx_index, timestamp):
     inputs = random.sample(NORMAL_WALLETS, n_in)
     outputs = random.sample(NORMAL_WALLETS, n_out)
     in_amt = [round(random.uniform(0.01, 2.0), 6) for _ in inputs]
-    fee = round(sum(in_amt) * random.uniform(0.001, 0.01), 6)
-    remaining = sum(in_amt) - fee
-    out_amt = []
-    for i in range(n_out):
-        share = remaining / n_out
-        out_amt.append(round(share * random.uniform(0.9, 1.1), 6))
+    total_in = sum(in_amt)
+    fee = round(total_in * random.uniform(0.001, 0.01), 6)
+    remaining = round(total_in - fee, 6)
+
+    # Split 'remaining' across outputs using normalized random weights,
+    # so the outputs always sum exactly to remaining (no drift).
+    weights = [random.uniform(0.5, 1.5) for _ in range(n_out)]
+    weight_sum = sum(weights)
+    out_amt = [round(remaining * w / weight_sum, 6) for w in weights]
+
+    # Fix any tiny rounding drift by dumping it into the last output
+    drift = round(remaining - sum(out_amt), 6)
+    out_amt[-1] = round(out_amt[-1] + drift, 6)
+
     return {
-        "timestamp": (timestamp).strftime("%Y-%m-%d %H:%M:%S"),
+        "timestamp": timestamp.strftime("%Y-%m-%d %H:%M:%S"),
         "src_ip": random_ip(NORMAL_IPS),
         "dst_ip": random_ip(NORMAL_IPS),
         "src_port": random.randint(1024, 65535),
@@ -84,7 +92,6 @@ def inject_peel_chain(start_time, chain_length=6):
         t += timedelta(minutes=random.randint(5, 60))
     return records
 def inject_mixing_pattern(start_time, n_intermediate=8):
-  
     """One source fans out to many wallets, which fan back into one destination."""
     records = []
     source = random_wallet()
