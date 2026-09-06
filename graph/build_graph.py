@@ -51,8 +51,8 @@ def build_edges(df, ip_to_idx, wallet_to_idx, tx_to_idx):
     return edges
 def build_transaction_features(df, tx_to_idx):
     n_tx = len(tx_to_idx)
-    features = torch.zeros((n_tx, 4), dtype=torch.float)
-    labels = torch.zeros(n_tx, dtype=torch.long)  # 0 = licit, 1 = illicit, 2 = unknown
+    features = torch.zeros((n_tx, 8), dtype=torch.float)
+    labels = torch.zeros(n_tx, dtype=torch.long)
 
     for _, row in df.iterrows():
         idx = tx_to_idx[row["txid"]]
@@ -62,10 +62,15 @@ def build_transaction_features(df, tx_to_idx):
             total_in,
             total_out,
             row["fee"],
-            len(row["input_addresses"]) + len(row["output_addresses"]),  # tx "size"
+            len(row["input_addresses"]) + len(row["output_addresses"]),
+            row.get("avg_in_degree", 0.0),
+            row.get("avg_out_degree", 0.0),
+            row.get("avg_pagerank", 0.0),
+            row.get("avg_ip_diversity", 0.0),
         ])
         labels[idx] = 1 if row["label"] == "illicit" else 0
-    return features, labels    
+
+    return features, labels
 
     
 def build_graph(df):
@@ -92,7 +97,7 @@ def build_graph(df):
 
 
 if __name__ == "__main__":
-    df = load_cleaned_data()
+    df = load_cleaned_data(path="data/processed/transactions_with_structural_features.csv")
     print(f"Loaded {len(df)} transactions")
 
     graph, ip_to_idx, wallet_to_idx, tx_to_idx = build_graph(df)
