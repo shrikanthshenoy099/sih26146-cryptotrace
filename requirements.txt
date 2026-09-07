@@ -1,0 +1,11 @@
+pandas
+numpy
+geoip2
+torch
+torch-geometric
+networkx
+fastapi
+uvicorn
+streamlit
+pyvis
+scikit-learn

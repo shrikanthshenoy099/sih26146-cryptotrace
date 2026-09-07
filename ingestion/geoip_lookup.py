@@ -1,13 +1,13 @@
 import geoip2.database
 
-_city_reader = None
+_country_reader = None
 _asn_reader = None
 
-def _get_city_reader():
-    global _city_reader
-    if _city_reader is None:
-        _city_reader = geoip2.database.Reader("data/geoip/GeoLite2-City.mmdb")
-    return _city_reader
+def _get_country_reader():
+    global _country_reader
+    if _country_reader is None:
+        _country_reader = geoip2.database.Reader("data/geoip/GeoLite2-Country.mmdb")
+    return _country_reader
 
 def _get_asn_reader():
     global _asn_reader
@@ -17,7 +17,7 @@ def _get_asn_reader():
 
 def resolve_country(ip):
     try:
-        response = _get_city_reader().city(ip)
+        response = _get_country_reader().country(ip)
         return response.country.iso_code or "UNKNOWN"
     except Exception:
         return "UNKNOWN"
